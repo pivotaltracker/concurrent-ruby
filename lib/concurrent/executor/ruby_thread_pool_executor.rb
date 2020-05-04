@@ -12,7 +12,7 @@ module Concurrent
   class RubyThreadPoolExecutor < RubyExecutorService
 
     # @!macro thread_pool_executor_constant_default_max_pool_size
-    DEFAULT_MAX_POOL_SIZE      = 2_147_483_647 # java.lang.Integer::MAX_VALUE
+    DEFAULT_MAX_POOL_SIZE      = 32 # java.lang.Integer::MAX_VALUE
 
     # @!macro thread_pool_executor_constant_default_min_pool_size
     DEFAULT_MIN_POOL_SIZE      = 0
